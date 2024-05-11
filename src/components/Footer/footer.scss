@@ -1,0 +1,28 @@
+@import "../../styles/variables.scss";
+
+.footer{
+  background-color: $main-bg;
+  
+  .foot{
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    :first-child{
+      font-size: medium;
+      font-weight: bold;
+      display: flex;
+      align-items: center;
+    }
+
+
+    :last-child{
+      font-size: small;
+      size: 7px;
+      display: flex;
+      align-items: center;
+    }
+  }
+}

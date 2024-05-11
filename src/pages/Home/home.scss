@@ -1,0 +1,36 @@
+@import "../../styles/variables.scss";
+.home {
+  width: 90%;
+  height: 100vh;
+  border: solid 1px $soft-bg;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: auto;
+  margin: auto;
+  
+  .title{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  .body-home{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+
+    .line{
+      border: solid 1px $soft-bg;
+      border-radius: 5%;
+      padding: 5%;
+      display: flex;
+      gap: 20px;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}
